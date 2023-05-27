@@ -1,0 +1,125 @@
+.icons-task1, .icons-task2, .icons-task3 {
+    display: flex;
+    flex-direction: column; 
+    width: 10%; 
+    background-color: white; 
+}
+
+.task1, .task2, .task3 {
+    display: flex; 
+    justify-content: space-between;
+    background-color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all .2s ease-in-out;
+    border: solid lightblue 0px; 
+}
+
+.task1:hover, .task2:hover, .task3:hover {
+    cursor: pointer; 
+    transform: scale(1.01);
+    border: solid lightgray 2px; 
+}
+
+.title-task1, .title-task2, .title-task3 {
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    width: 90%;
+    justify-content: space-between;
+    background-color: white; 
+}
+
+.cross:hover {
+    -webkit-filter: brightness(120%);
+}
+
+.checkmark:hover {
+    -webkit-filter: brightness(105%);
+}
+
+h1 {
+    font-size: 46px; 
+    font-weight: bold; 
+}
+
+h2 {
+    font-size: 24px; 
+    margin: 0px; 
+}
+
+* {
+    font-family: Poppins; 
+}
+
+.titletext {
+    display: flex; 
+    justify-content: space-between;
+    width: 80%;
+}
+
+.titleicon {
+    display: flex; 
+    justify-content: space-between;
+    width: 20%; 
+    justify-content: flex-end; 
+}
+
+.titleclass {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#reverse {
+    background: rgba(255, 255, 255, 0.782); 
+    outline-offset: 20px; 
+    margin: 20px; 
+    border-radius: 10px;
+    padding: 15px; 
+    box-sizing: content-box; 
+    border: solid lightgray 2px; 
+}
+
+#reverse:hover {
+    -webkit-filter: brightness(105%);
+}
+
+.inputarea {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;  
+    background-color: #eee; 
+    padding: 10px; 
+    border-radius: 5px; 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all .2s ease-in-out;
+    border: solid white 5px; 
+}
+
+.input-element {
+    border-width: 0px !important; 
+    background-color: #eee;
+    width: 100%
+}
+
+.input-element:focus-visible {
+    outline: none; 
+}
+
+.sendbutton {
+    display: flex; 
+    -webkit-filter: invert(1);
+}
+
+.sendbutton:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    cursor: pointer; 
+}
+
+#hiddenClone {
+    display: none; 
+}
+
